@@ -12,7 +12,5 @@ public class Main {
         methods.addEmployee("Иванова", "Нина", "Григорьевна", "5", 84324);
         methods.addEmployee("Куркин", "Андрей", "Сергеевич", "2", 86436);
         methods.printAllEmployee();
-
     }
-
 }

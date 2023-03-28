@@ -28,10 +28,12 @@ public class Employee {
     public String getDepartment() {
         return department;
     }
-    public void setDepartment(){
+
+    public void setDepartment() {
         this.department = department;
     }
-    public void setPayEmployee(){
+
+    public void setPayEmployee() {
         this.payEmployee = payEmployee;
     }
 

@@ -41,7 +41,6 @@ public class Methods {
     public void counter(){
         int id = 0;
         for (int i = 0; i <10; i=i+1){
-
             id = id+1;
     }
     }
