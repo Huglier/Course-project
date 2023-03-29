@@ -38,7 +38,7 @@ public class Methods {
         }
         System.out.println(employeeLastName + " не найден");
     }
-    public void counter(){
+    public static void counter(){
         int id = 0;
         for (int i = 0; i <10; i=i+1){
             id = id+1;
@@ -54,6 +54,9 @@ public class Methods {
     }
 
     public void paySum() {
+        int sum = 0;
+        Employee employee;
+        int payEmployee = employee.getPayEmployee();
     }
 
     public int getCurrentSize() {
