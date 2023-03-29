@@ -13,6 +13,7 @@ public class Employee {
         this.payEmployee = payEmployee;
     }
 
+
     public String getLastName() {
         return lastName;
     }
@@ -28,6 +29,9 @@ public class Employee {
     public String getDepartment() {
         return department;
     }
+    public int getPayEmployee() {
+        return payEmployee;
+    }
 
     public void setDepartment() {
         this.department = department;
@@ -37,8 +41,6 @@ public class Employee {
         this.payEmployee = payEmployee;
     }
 
-    public int getPayEmployee() {
-        return payEmployee;
-    }
+
 
 }
